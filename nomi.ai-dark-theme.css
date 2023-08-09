@@ -162,6 +162,7 @@ ul.css-497xvz,
 .css-9i2gok,
 .css-7fgif5,
 .css-13esyrq,
+.css-1n084m6,
 .css-vtzx0o,
 .css-1d7lv4w,
 .react-datepicker__month-container,
@@ -183,6 +184,7 @@ ul.css-497xvz,
 }
 
 /* Fix nomi details page hover */
+.css-1qvkgqq,
 .css-bxdqnu:hover {
     background-color: gray;
 }
@@ -209,12 +211,15 @@ h5.css-124mhq6 {
 }
 
 /* Make icons visible again */
-.css-jy06mt,
 .css-uixws,
+.css-odz94x,
+.css-jy06mt,
 .css-r9bic9 {
     background: var(--toastify-color-light) !important;
     border-radius: 20px;
+    color: var(--toastify-color-dark) !important;
     line-height: 10px;
+    margin-top:0px !important;
 }
 
 /* Delete Nomi buttons */
