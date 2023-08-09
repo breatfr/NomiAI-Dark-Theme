@@ -5,7 +5,7 @@ Stylus dark theme for chat pages of [NomiAI](https://beta.nomi.ai) website
 ![Preview](https://github.com/breatfr/NomiAI-dark-theme/blob/main/preview.jpg)
 Don't take care of this chat, i create it only to make the screenshot :)
 
-## How to use in few
+## How to use in few steps
 1°) Install Stylus browser extension
 - Chromium browsers link: https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne
 - Firefox link: https://addons.mozilla.org/firefox/addon/styl-us/
