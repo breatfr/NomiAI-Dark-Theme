@@ -27,3 +27,5 @@ More previews here:
 ![Stylus screenshot](https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/stylus-screenshot.jpg)
 
 4°) Enjoy :)
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/breatfr)
