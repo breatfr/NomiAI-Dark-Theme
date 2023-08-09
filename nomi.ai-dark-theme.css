@@ -26,7 +26,7 @@
 
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px grey; 
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -67,7 +67,7 @@ textarea,
 .css-1ejta19,
 .css-1n084m6,
 .css-1ooloxp {
-    background: var(--toastify-color-dark) !important;
+    background: rgb(9, 16, 29) !important;
 }
 
 /* Selfie notifications */
@@ -223,7 +223,7 @@ h5.css-124mhq6 {
 
 ::-webkit-scrollbar-track {
   box-shadow: inset 0 0 5px grey; 
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 ::-webkit-scrollbar-thumb {
