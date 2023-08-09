@@ -1,5 +1,5 @@
 # NomiAI dark theme
-Stylus dark theme for chat pages of [NomiAI](https://beta.nomi.ai) website
+Stylus dark theme for whole [NomiAI](https://beta.nomi.ai) website.
 
 ## Preview
 ![Preview](https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-chat.jpg)
