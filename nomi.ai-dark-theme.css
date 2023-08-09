@@ -72,10 +72,14 @@ body,
 textarea,
 .css-1ejta19,
 .css-1n084m6,
-.css-1ooloxp,
+.css-1ooloxp {
+    background: var(--toastify-color-dark) !important;
+}
+
+/* Selfie notifications */
 .Toastify__toast-theme--light,
 .Toastify__toast-body {
-    background: var(--toastify-color-dark) !important;
+    background: #616161 !important;
 }
 
 /* Fix focus changing color of border textarea */
