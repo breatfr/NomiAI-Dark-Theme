@@ -148,7 +148,7 @@ textarea:focus {
 }
 }
 
-@-moz-document url("https://beta.nomi.ai/nomis"), url("https://beta.nomi.ai/nomis/new"), url("https://beta.nomi.ai/privacy-policy"), url("https://beta.nomi.ai/profile/settings"), url-prefix("https://beta.nomi.ai/profile/nomis"), regexp("https://beta\\.nomi\\.ai/nomis/\\d+/photo-album") {
+@-moz-document url("https://beta.nomi.ai/"), url("https://beta.nomi.ai/sign-in"), url("https://beta.nomi.ai/nomis"), url("https://beta.nomi.ai/nomis/new"), url("https://beta.nomi.ai/privacy-policy"), url("https://beta.nomi.ai/profile/settings"), url-prefix("https://beta.nomi.ai/profile/nomis"), regexp("https://beta\\.nomi\\.ai/nomis/\\d+/photo-album") {
 /* Dark background for whole site */
 body,
 input,
@@ -183,9 +183,10 @@ ul.css-497xvz,
     cursor: not-allowed !important;
 }
 
-/* Fix nomi details page hover */
+/* Fix some buttons to make them more visible */
+.css-hsqzc1,
 .css-1qvkgqq,
-.css-bxdqnu:hover {
+.css-bxdqnu:hover /* Fix nomi details page hover */ {
     background-color: gray;
 }
 
