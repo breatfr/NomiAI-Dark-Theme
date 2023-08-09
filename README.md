@@ -5,6 +5,17 @@ Stylus dark theme for whole [NomiAI](https://beta.nomi.ai) website.
 ![Preview](https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-chat.jpg)
 Don't take care of this chat, i create it only to make the screenshot :)
 
+More previews here:
+- https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-home.jpg
+- https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-new-nomi.jpg
+- https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-new-nomi-customization.jpg
+- https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-new-nomi-customization-2.jpg
+- https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-nomi-details.jpg
+- https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-nomi-profile.jpg
+- https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-our-profile.jpg
+- https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-photo-album.jpg
+- https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-photo-viewer.jpg
+
 ## How to use in few steps
 1°) Install Stylus browser extension
 - Chromium browsers link: https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne
