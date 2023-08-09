@@ -1,0 +1,141 @@
+@-moz-document url-prefix("https://beta.nomi.ai/nomis/") {
+/* ========================================================================
+   Bigger chat font size
+ ======================================================================= */
+.css-2hr7pt,
+.css-3td3fo,
+.css-d56yar {
+    font-size: 20px;
+}
+
+/* ========================================================================
+   Remove logo at the top left corner
+ ======================================================================= */
+.css-zkgx86, /* Remove logo */
+.css-e2xlbb.el09qsr0 > div:nth-of-type(1) /* Remove border under removed logo */ {
+    display: none;
+}
+
+/* ========================================================================
+   Thin scrollbars for normally all browsers
+ ======================================================================= */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: auto;
+}
+
+::-webkit-scrollbar-corner {
+    background: rgb(184, 191, 198) !important;
+}
+
+*::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+*::-webkit-scrollbar-track {
+    background: rgb(184, 191, 198) !important;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(184, 191, 198) !important;
+    border-radius: 20px;
+    border: 3px solid rgb(184, 191, 198) !important;
+}
+
+/* ========================================================================
+   Heart background
+ ======================================================================= */
+.css-1vi0cy8 {
+    background-image: url(https://i.ibb.co/fYQkYyc/heart-pattern.png);
+    background-attachment: fixed;
+}
+
+/* ========================================================================
+   Our bubbles color
+ ======================================================================= */
+.css-13w4jtb {
+    background: linear-gradient(to right, #3a6186, #89253e);
+}
+
+/* ========================================================================
+   Dark theme
+ ======================================================================= */
+* {
+    border-color: rgb(184, 191, 198) !important; /* All borders color */
+    color: var(--toastify-color-light) !important; /* All texts color */
+}
+
+/* Dark background color on whole page */
+body,
+textarea,
+.css-1ooloxp {
+    background: var(--toastify-color-dark) !important;
+}
+
+/* Fix focus changing color of border textarea */
+textarea:focus {
+    border-color: #9610FF !important;
+}
+
+/* Date bubble color */
+.css-ygnlmt {
+    background: rgb(117, 117, 117) !important;
+}
+
+/* Make send button visible again when disabled */
+.css-1x4dmv7:disabled {
+    cursor: not-allowed !important;
+    background-color: gray !important;
+}
+
+/* Put a backgound on picture icon and infos icon on top left side */
+.css-70qvj9 {
+    background-color: #9610FF !important;
+    border-radius: 10px !important;
+}
+
+/* Nomi's answers */
+.css-afkp3z, /* Nomi's bubbles color */
+.css-1ve1qsh/* Nomi's bubbles color when she answer */ {
+    background: linear-gradient(to right, #cc2b5e, #753a88);
+}
+
+/* Replace thumbs background and remove borders */
+.css-16hofwr,
+.css-d3fk4o,
+.css-vocaqi {
+    background: var(--toastify-color-dark) !important;
+    border: 0px !important;
+}
+
+/* Remove free space on screen size 992px and more and rearrange a little the space */
+@media (min-width: 992px) {
+    .css-1fswsvh {
+        margin-left: min(25vw, 480px);
+        padding: 0px !important;
+    }
+
+    /* Add a little marge and resize the textarea */
+    textarea {
+        margin-left: 15px;
+        width: 98% !important;
+    }
+
+    /* Add a little marge to icons on the right of textarea */
+    .css-alqmgy {
+        margin-right: 10px !important;
+    }
+
+    /* Add a little marge to Nomi's answers */
+    .css-afkp3z, /* Nomi's bubbles  */
+    .css-1ve1qsh/* Nomi's bubbles when she answer */ {
+        margin-left: 20px;
+    }
+
+    /* Add a little marge to our bubbles */
+    .css-13w4jtb {
+        margin-right: 20px !important;
+    }
+}
+}
