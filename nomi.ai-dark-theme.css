@@ -12,7 +12,8 @@
    Remove logo at the top left corner
  ======================================================================= */
 .css-zkgx86, /* Remove logo */
-.css-e2xlbb.el09qsr0 > div:nth-of-type(1) /* Remove border under removed logo */ {
+.css-e2xlbb.el09qsr0 > div:nth-of-type(1), /* Remove border under removed logo */
+.css-nzao1s.eawisc75:nth-of-type(1) > div:nth-of-type(3) /* Remove borders between nomis */ {
     display: none;
 }
 
@@ -69,6 +70,7 @@
 /* Dark background color on whole page */
 body,
 textarea,
+.css-1n084m6,
 .css-1ooloxp {
     background: var(--toastify-color-dark) !important;
 }
@@ -89,7 +91,8 @@ textarea:focus {
     background-color: gray !important;
 }
 
-/* Put a backgound on picture icon and infos icon on top left side */
+/* Put a backgound on icons and infos icon on top left side */
+.css-1n084m6 svg,
 .css-70qvj9 {
     background-color: #9610FF !important;
     border-radius: 10px !important;
