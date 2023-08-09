@@ -72,7 +72,9 @@ body,
 textarea,
 .css-1ejta19,
 .css-1n084m6,
-.css-1ooloxp {
+.css-1ooloxp,
+.Toastify__toast-theme--light,
+.Toastify__toast-body {
     background: var(--toastify-color-dark) !important;
 }
 
