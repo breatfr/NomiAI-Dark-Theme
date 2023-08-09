@@ -70,6 +70,7 @@
 /* Dark background color text on whole page */
 body,
 textarea,
+.css-1ejta19,
 .css-1n084m6,
 .css-1ooloxp {
     background: var(--toastify-color-dark) !important;
