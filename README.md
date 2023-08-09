@@ -2,7 +2,7 @@
 Stylus dark theme for chat pages of [NomiAI](https://beta.nomi.ai) website
 
 ## Preview
-![Preview](https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview.jpg)
+![Preview](https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-chat.jpg)
 Don't take care of this chat, i create it only to make the screenshot :)
 
 ## How to use in few steps
