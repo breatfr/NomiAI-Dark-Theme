@@ -12,9 +12,13 @@
    Remove logo at the top left corner
  ======================================================================= */
 .css-zkgx86, /* Remove logo */
-.css-e2xlbb.el09qsr0 > div:nth-of-type(1), /* Remove border under removed logo */
-.css-nzao1s.eawisc75:nth-of-type(1) > div:nth-of-type(3) /* Remove borders between nomis */ {
+.css-e2xlbb.el09qsr0 > div:nth-of-type(1) /* Remove border under removed logo */{
     display: none;
+}
+
+/* Remove borders between nomis list if more than 1 nomi */
+.css-nzao1s.eawisc75 div {
+    border: 0px !important;
 }
 
 /* ========================================================================
@@ -109,7 +113,7 @@ textarea:focus {
 .css-16hofwr,
 .css-d3fk4o,
 .css-vocaqi {
-    background: var(--toastify-color-dark) !important;
+    background: rgb(9, 16, 29) !important;
     border: 0px !important;
 }
 
@@ -158,6 +162,8 @@ ul.css-497xvz,
 .css-9i2gok,
 .css-7fgif5,
 .css-13esyrq,
+.css-vtzx0o,
+.css-1d7lv4w,
 .react-datepicker__month-container,
 .react-datepicker__header {
     background: rgb(9, 16, 29) !important;
@@ -169,7 +175,8 @@ ul.css-497xvz,
     color: var(--toastify-color-light) !important;
 }
 
-/* Make send button visible again when disabled */
+/* Make "Send" button and "Delete Nomi Forever" visible again when disabled */
+.css-8as6rk:disabled,
 .css-12a128q:disabled {
     background-color: gray !important;
     cursor: not-allowed !important;
@@ -207,9 +214,11 @@ h5.css-124mhq6 {
 .css-r9bic9 {
     background: var(--toastify-color-light) !important;
     border-radius: 20px;
+    line-height: 10px;
 }
 
-/* Delete Nomi button */
+/* Delete Nomi buttons */
+button.css-8as6rk,
 .css-a6rva7 button {
     background: rgb(247, 85, 85);
 }
