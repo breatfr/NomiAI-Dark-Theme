@@ -148,7 +148,7 @@ textarea:focus {
 }
 }
 
-@-moz-document url("https://beta.nomi.ai/"), url("https://beta.nomi.ai/sign-in"), url("https://beta.nomi.ai/nomis"), url("https://beta.nomi.ai/nomis/new"), url("https://beta.nomi.ai/privacy-policy"), url("https://beta.nomi.ai/profile/settings"), url-prefix("https://beta.nomi.ai/profile/nomis"), regexp("https://beta\\.nomi\\.ai/nomis/\\d+/photo-album") {
+@-moz-document url("https://beta.nomi.ai/"), url("https://beta.nomi.ai/sign-in"), url("https://beta.nomi.ai/nomis"), url("https://beta.nomi.ai/nomis/new"), url("https://beta.nomi.ai/privacy-policy"), url("https://beta.nomi.ai/terms-of-service"), url("https://beta.nomi.ai/profile/settings"), url-prefix("https://beta.nomi.ai/profile/nomis"), regexp("https://beta\\.nomi\\.ai/nomis/\\d+/photo-album") {
 /* Dark background for whole site */
 body,
 input,
