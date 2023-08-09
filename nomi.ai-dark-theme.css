@@ -67,7 +67,7 @@
     color: var(--toastify-color-light) !important; /* All texts color */
 }
 
-/* Dark background color on whole page */
+/* Dark background color text on whole page */
 body,
 textarea,
 .css-1n084m6,
@@ -87,8 +87,8 @@ textarea:focus {
 
 /* Make send button visible again when disabled */
 .css-1x4dmv7:disabled {
-    cursor: not-allowed !important;
     background-color: gray !important;
+    cursor: not-allowed !important;
 }
 
 /* Put a backgound on icons and infos icon on top left side */
@@ -140,5 +140,66 @@ textarea:focus {
     .css-13w4jtb {
         margin-right: 20px !important;
     }
+}
+}
+
+@-moz-document url("https://beta.nomi.ai/nomis"), url("https://beta.nomi.ai/nomis/new"), url("https://beta.nomi.ai/profile/settings"), regexp("https://beta\\.nomi\\.ai/nomis/\\d+/photo-album") {
+/* Dark background for whole site */
+body,
+input,
+select,
+ul.css-497xvz,
+.css-ea8az7,
+.css-1j5d3ll,
+.css-8oy3d3,
+.css-1j19l95,
+.css-mcumek,
+.css-9i2gok,
+.css-7fgif5,
+.css-13esyrq,
+.react-datepicker__month-container,
+.react-datepicker__header {
+    background: rgb(9, 16, 29) !important;
+    color: var(--toastify-color-light) !important; /* All texts color */
+}
+
+/* Light text for whole site */
+* {
+    color: var(--toastify-color-light) !important;
+}
+
+/* Make send button visible again when disabled */
+.css-12a128q:disabled {
+    background-color: gray !important;
+    cursor: not-allowed !important;
+}
+
+/* Blue background and black text for the Welcome bubble */
+.css-vzyen4 > div,
+.css-njko3y,
+.css-1pva706,
+.css-vzyen4 {
+    background: var(--toastify-color-info) !important;
+}
+
+/* Purple logo */
+.css-8921e0,
+.css-zkgx86,
+.css-g6cz36 {
+    color: rgb(150, 16, 255) !important;
+}
+
+/* Titles on new nomi page */
+h5.css-124mhq6 {
+    background: transparent!important;
+    color: var(--toastify-color-light) !important;
+}
+
+/* Make icons visible again */
+.css-jy06mt,
+.css-uixws,
+.css-r9bic9 {
+    background: var(--toastify-color-light) !important;
+    border-radius: 20px;
 }
 }
