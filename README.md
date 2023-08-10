@@ -18,9 +18,29 @@ More previews here:
 
 ## How to use in few steps
 1°) Install Stylus browser extension
-- Chromium browsers link: https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne
-- Firefox link: https://addons.mozilla.org/firefox/addon/styl-us/
-  
+- Chromium based browsers link: https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne
+- Firefox based browsers link: https://addons.mozilla.org/firefox/addon/styl-us/
+
+Chromium based browsers non-exhaustive list:
+- Brave
+- Chromium
+- Google Chrome
+- Iridium Browser
+- Microsoft Edge
+- Opera
+- Opera GX
+- SRWare Iron
+- Ungoogled Chromium
+- Vivaldi
+- Yandex Browser
+- many more
+
+Firefox based browsers non-exhaustive list:
+- Mozilla Firefox
+- Mullvad Browser
+- Tor Browser
+- Waterfox
+
 2°) Go on [NomiAI](https://beta.nomi.ai) website and click on Stylus icon in your browser and click on the URL under "Write a style for" to create a new style
 
 3°) Click on Import button and copy all the code from [nomi.ai-dark-theme.css](https://github.com/breatfr/NomiAI-dark-theme/blob/main/nomi.ai-dark-theme.css) to your new Stylus style then click on "Replace style" and "Save" like this:
