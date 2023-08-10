@@ -76,9 +76,8 @@ X (twitter): https://twitter.com/breatfroff
     display: grid;
     grid-gap: 8px;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: flex-start;
     justify-items: center;
-    justify-content: center;
-    margin-left: 28%;
 }
 
 /* ========================================================================
