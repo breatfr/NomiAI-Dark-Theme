@@ -1,3 +1,4 @@
+@-moz-document url-prefix("https://beta.nomi.ai/nomis/") {
 /* === Credits ===
 Created by: BreatFR
 Creatied on: 2023/08/08
@@ -88,7 +89,10 @@ textarea,
 
 /* Selfie notifications */
 .Toastify__toast-theme--light,
-.Toastify__toast-body {
+.Toastify__toast-body,
+/* Fix bubble during selfie is taking to make her more visible */
+.css-12kxn86,
+.css-kkk4zb {
     background: #616161 !important;
 }
 
@@ -96,6 +100,7 @@ textarea,
 textarea:focus {
     border-color: #9610FF !important;
 }
+
 
 /* Date bubble color */
 .css-ygnlmt {
@@ -137,26 +142,130 @@ textarea:focus {
         padding: 0px !important;
     }
 
-    /* Add a little marge and resize the textarea */
+    /* Add a marge and resize the textarea */
     textarea {
         margin-left: 15px;
         width: 98% !important;
     }
 
-    /* Add a little marge to icons on the right of textarea */
+    /* Add a marge to icons on the right of textarea */
     .css-alqmgy {
         margin-right: 10px !important;
     }
 
-    /* Add a little marge to Nomi's answers */
+    /* Add a marge to Nomi's answers */
     .css-3fim88, /* pAlign pics in chat  with bubbles again */
     .css-afkp3z, /* Nomi's bubbles  */
     .css-1ve1qsh/* Nomi's bubbles when she answer */ {
         margin-left: 20px;
     }
 
-    /* Add a little marge to our bubbles */
+    /* Add a marge to our bubbles */
     .css-13w4jtb {
         margin-right: 20px !important;
     }
+}
+}
+
+@-moz-document url("https://beta.nomi.ai/"), url("https://beta.nomi.ai/sign-in"), url("https://beta.nomi.ai/nomis"), url("https://beta.nomi.ai/nomis/new"), url("https://beta.nomi.ai/privacy-policy"), url("https://beta.nomi.ai/terms-of-service"), url("https://beta.nomi.ai/profile/settings"), url-prefix("https://beta.nomi.ai/profile/nomis"), regexp("https://beta\\.nomi\\.ai/nomis/\\d+/photo-album") {
+/* Dark background for whole site */
+body,
+input,
+select,
+ul.css-497xvz,
+.css-ea8az7,
+.css-1j5d3ll,
+.css-8oy3d3,
+.css-1j19l95,
+.css-mcumek,
+.css-9i2gok,
+.css-7fgif5,
+.css-13esyrq,
+.css-1n084m6,
+.css-vtzx0o,
+.css-1d7lv4w,
+.react-datepicker__month-container,
+.react-datepicker__header {
+    background: rgb(9, 16, 29) !important;
+    color: var(--toastify-color-light) !important; /* All texts color */
+}
+
+/* Light text for whole site */
+* {
+    color: var(--toastify-color-light) !important;
+}
+
+/* Make "Send" button and "Delete Nomi Forever" visible again when disabled */
+.css-8as6rk:disabled,
+.css-12a128q:disabled {
+    background-color: gray !important;
+    cursor: not-allowed !important;
+}
+
+/* Fix some buttons to make them more visible */
+.css-hsqzc1,
+.css-1qvkgqq,
+.css-bxdqnu:hover /* Fix nomi details page hover */ {
+    background-color: gray !important;
+}
+
+/* Blue background for the Welcome bubble */
+.css-vzyen4 > div,
+.css-njko3y,
+.css-1pva706,
+.css-vzyen4 {
+    background: var(--toastify-color-info) !important;
+}
+
+/* Purple logo */
+.css-8921e0,
+.css-zkgx86,
+.css-g6cz36 {
+    color: rgb(150, 16, 255) !important;
+}
+
+/* Titles on new nomi page */
+h5.css-124mhq6 {
+    background: transparent!important;
+    color: var(--toastify-color-light) !important;
+}
+
+/* Make icons visible again */
+.css-uixws,
+.css-odz94x,
+.css-jy06mt,
+.css-r9bic9 {
+    background: var(--toastify-color-light) !important;
+    border-radius: 20px;
+    color: var(--toastify-color-dark) !important;
+    line-height: 10px;
+    margin-top:0px !important;
+}
+
+/* Delete Nomi buttons */
+button.css-8as6rk,
+.css-a6rva7 button {
+    background: rgb(247, 85, 85);
+}
+
+/* ========================================================================
+   Thin scrollbars for normally all browsers
+ ======================================================================= */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(184, 191, 198);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: white; 
+}
 }
