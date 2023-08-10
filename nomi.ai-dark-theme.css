@@ -2,7 +2,7 @@
 /* === Credits ===
 Created by: BreatFR
 Creatied on: 2023/08/08
-Version 1.0
+Version 1.1
 Contact: breatfr on Discord
 Website: https://breat.fr
 facebook: https://www.facebook.com/breatfroff
@@ -87,6 +87,18 @@ textarea,
     background: rgb(9, 16, 29) !important;
 }
 
+/* Remove border on pop up for selfie request */
+.css-wwpt19 {
+    border: 0px !important;
+}
+
+/* All SVG are white */
+.css-70qvj9 svg path,
+.css-136m6w0 svg path,
+.css-1n084m6 svg path {
+    fill: white;
+}
+
 /* Selfie notifications */
 .Toastify__toast-theme--light,
 .Toastify__toast-body,
@@ -101,7 +113,6 @@ textarea:focus {
     border-color: #9610FF !important;
 }
 
-
 /* Date bubble color */
 .css-ygnlmt {
     background: rgb(117, 117, 117) !important;
@@ -112,13 +123,6 @@ textarea:focus {
 .css-1x4dmv7:disabled {
     background-color: gray !important;
     cursor: not-allowed !important;
-}
-
-/* Put a backgound on icons and infos icon on top left side */
-.css-1n084m6 svg,
-.css-70qvj9 {
-    background-color: #9610FF !important;
-    border-radius: 10px !important;
 }
 
 /* Nomi's answers */
@@ -167,7 +171,7 @@ textarea:focus {
 }
 }
 
-@-moz-document url("https://beta.nomi.ai/"), url("https://beta.nomi.ai/sign-in"), url("https://beta.nomi.ai/nomis"), url("https://beta.nomi.ai/nomis/new"), url("https://beta.nomi.ai/privacy-policy"), url("https://beta.nomi.ai/terms-of-service"), url("https://beta.nomi.ai/profile/settings"), url-prefix("https://beta.nomi.ai/profile/nomis"), regexp("https://beta\\.nomi\\.ai/nomis/\\d+/photo-album") {
+@-moz-document url("https://beta.nomi.ai/"), url("https://beta.nomi.ai/sign-in"), url("https://beta.nomi.ai/nomis"), url("https://beta.nomi.ai/profile/account"), url("https://beta.nomi.ai/nomis/new"), url("https://beta.nomi.ai/privacy-policy"), url("https://beta.nomi.ai/terms-of-service"), url("https://beta.nomi.ai/profile/settings"), url-prefix("https://beta.nomi.ai/profile/nomis"), regexp("https://beta\\.nomi\\.ai/nomis/\\d+/photo-album") {
 /* Dark background color for whole site */
 body,
 input,
@@ -194,6 +198,37 @@ ul.css-497xvz,
     color: var(--toastify-color-light) !important;
 }
 
+/* SVG are white */
+.css-uixws svg path,
+.css-odz94x svg path,
+.css-jy06mt svg path,
+.css-r9bic9 svg path,
+.css-wrx5df svg path,
+.css-bxdqnu svg path,
+.css-1ji2ynh svg path,
+.css-79elbk svg path,
+.css-hsqzc1 svg path,
+.css-1qvkgqq svg path {
+    fill: white;
+}
+
+/* Make logout SVG and text red again */
+.css-1rv67vh,
+.css-1hmb4pn svg path {
+    color: #e74c3c !important;
+    fill: #e74c3c;
+}
+
+/* Fix SVG on nomi details page when hover */
+.css-bxdqnu:hover svg path {
+    fill: black;
+}
+
+/* Delete account button */
+.css-1yp80wt {
+    color: #e74c3c !important;
+}
+
 /* Make "Send" button and "Delete Nomi Forever" visible again when disabled */
 .css-8as6rk:disabled,
 .css-12a128q:disabled {
@@ -201,7 +236,8 @@ ul.css-497xvz,
     cursor: not-allowed !important;
 }
 
-/* Fix some buttons to make them more visible */
+/* Fix some buttons and bubbles to make them more visible */
+.css-9i2gok,
 .css-hsqzc1,
 .css-1qvkgqq,
 .css-bxdqnu:hover /* Fix nomi details page hover */ {
@@ -227,19 +263,6 @@ ul.css-497xvz,
 h5.css-124mhq6 {
     background: transparent!important;
     color: var(--toastify-color-light) !important;
-}
-
-/* Make icons visible again */
-.css-uixws,
-.css-1ji2ynh,
-.css-odz94x,
-.css-jy06mt,
-.css-r9bic9 {
-    background: var(--toastify-color-light) !important;
-    border-radius: 20px;
-    color: var(--toastify-color-dark) !important;
-    line-height: 10px;
-    margin-top:0px !important;
 }
 
 /* Delete Nomi buttons */
