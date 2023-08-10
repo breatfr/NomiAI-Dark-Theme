@@ -2,7 +2,7 @@
 /* === Credits ===
 Created by: BreatFR
 Creatied on: 2023/08/08
-Version 1.1
+Version 1.2
 Contact: breatfr on Discord
 Website: https://breat.fr
 facebook: https://www.facebook.com/breatfroff
@@ -68,6 +68,17 @@ X (twitter): https://twitter.com/breatfroff
  ======================================================================= */
 .css-13w4jtb {
     background: linear-gradient(to right, #3a6186, #89253e);
+}
+
+/* Pictures in row in chat */
+.css-1cwe3m3 {
+    align-items: center;
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    justify-content: center;
+    margin-left: 28%;
 }
 
 /* ========================================================================
