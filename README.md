@@ -40,6 +40,7 @@ Firefox based browsers non-exhaustive list:
 - Mullvad Browser
 - Tor Browser
 - Waterfox
+- many more
 
 2°) Go on [NomiAI](https://beta.nomi.ai) website and click on Stylus icon in your browser and click on the URL under "Write a style for" to create a new style
 
