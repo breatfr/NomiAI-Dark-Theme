@@ -57,9 +57,7 @@ X (twitter): https://x.com/breatfroff
    Heart background
  ======================================================================= */
 .css-1vi0cy8 {
-    background-image: url(https://i.ibb.co/fYQkYyc/heart-pattern.png);
-    background-size: 100% !important;
-    background-attachment: fixed;
+    background: url(https://i.ibb.co/fYQkYyc/heart-pattern.png) fixed 100% !important;
 }
 
 /* ========================================================================
@@ -205,6 +203,10 @@ h5.css-124mhq6 {
 .css-kkk4zb {
     background: #616161 !important;
     stroke: none;
+}
+
+textarea {
+    min-height: 56px !important;
 }
 
 /* Fix focus changing color of border textarea */
