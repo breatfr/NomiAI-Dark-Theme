@@ -1,16 +1,18 @@
 @-moz-document url-prefix("https://beta.nomi.ai/nomis/") {
-/* === Credits ===
+/* ========================================================================
+   === Credits ===
+
 Created by: BreatFR
 Creatied on: 2023/08/08
 Version 1.2
-Contact: breatfr on Discord
 Website: https://breat.fr
 facebook: https://www.facebook.com/breatfroff
 mastodon: https://mastodon.social/@breat_fr
 telegram group: https://t.me/+5ZLC2qntf6xmYmI0
 vk: https://vk.com/breatfroff
-X (twitter): https://twitter.com/breatfroff
-*/
+X (twitter): https://x.com/breatfroff
+
+======================================================================= */
 
 /* ========================================================================
    Bigger chat font size
@@ -70,7 +72,9 @@ X (twitter): https://twitter.com/breatfroff
     background: linear-gradient(to right, #3a6186, #89253e);
 }
 
-/* Pictures in row in chat */
+/* ========================================================================
+   Pictures in row in chat
+ ======================================================================= */
 .css-1cwe3m3 {
     align-items: center;
     display: grid;
@@ -91,6 +95,7 @@ X (twitter): https://twitter.com/breatfroff
 /* Dark background color on whole page */
 body,
 textarea,
+.css-1je5qdk,
 .css-1ejta19,
 .css-1n084m6,
 .css-1ooloxp {
@@ -103,6 +108,7 @@ textarea,
 }
 
 /* All SVG are white */
+.css-sgter1 svg path,
 .css-70qvj9 svg path,
 .css-136m6w0 svg path,
 .css-1n084m6 svg path {
@@ -209,6 +215,7 @@ ul.css-497xvz,
 }
 
 /* SVG are white */
+.css-15zum9u svg path,
 .css-uixws svg path,
 .css-odz94x svg path,
 .css-jy06mt svg path,
