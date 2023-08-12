@@ -225,6 +225,11 @@ h5.css-124mhq6 {
     stroke: none;
 }
 
+/* Smaller height of menu */
+.css-udmu36 {
+    max-height: 75px !important;
+}
+
 /* Fix textarea to grow to the top and not to the down */
 textarea {
     min-height: 56px !important;
