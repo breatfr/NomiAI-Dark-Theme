@@ -295,13 +295,55 @@ textarea:focus {
     border: 0px !important;
 }
 
-@media (min-width: 640px) {
+@media (max-width: 1632px) {
     /* Remove free space on screen size 640px and more and rearrange a little the space */
     .css-1fswsvh {
         margin-left: min(25vw, 640px);
-        margin-right: 10px;
+        padding-right: 10px;
     }
 
+    /* Add space between form elements */
+    form {
+        gap: 10px;
+    }
+}
+
+@media (min-width: 1632px) {
+    /* put profile pic in full size without going in album */
+    .css-e2xlbb {
+        max-width: 816px;
+        width: 816px;
+    }
+    
+    .css-1htcw6x {
+        scrollbar-width: none; /* Pour les navigateurs Firefox */
+        -ms-overflow-style: none; /* Pour les navigateurs Microsoft Edge */
+    }
+
+    .css-1htcw6x::-webkit-scrollbar {
+        width: 0px !important; /* Pour les navigateurs basés sur WebKit (Chrome, Safari, etc.) */
+    }
+
+    /* Ajouter des styles de défilement personnalisés si nécessaire */
+    .css-1htcw6x::-webkit-scrollbar {
+        width: 8px; /* Largeur de la barre de défilement */
+        background-color: transparent; /* Couleur de fond de la barre de défilement */
+    }
+
+    .css-1htcw6x::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.2); /* Couleur de la poignée de la barre de défilement */
+        border-radius: 4px; /* Bordure de la poignée */
+    }
+
+    .css-1htcw6x::-webkit-scrollbar-thumb:hover {
+        background-color: rgba(0, 0, 0, 0.3); /* Couleur de la poignée au survol */
+    }
+    
+    .css-1fswsvh {
+        margin-left: 816px;
+        padding-right: 10px;
+    }
+    
     /* Add space between form elements */
     form {
         gap: 10px;
