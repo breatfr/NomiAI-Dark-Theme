@@ -266,7 +266,7 @@ textarea:focus {
 /* Nomi's answers */
 .css-2hr7pt, /* Nomi's bubbles color mobile */
 .css-afkp3z, /* Nomi's bubbles color */
-.css-1ve1qsh > :last-child/* Nomi's bubbles color when she answer */ {
+.css-1ve1qsh /* Nomi's bubbles color when she answer */ {
     background: linear-gradient(to right, #cc2b5e, #753a88);
     border-radius: 8px 20px 20px 20px !important;
 }
