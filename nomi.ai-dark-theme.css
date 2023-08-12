@@ -66,6 +66,7 @@ X (twitter): https://x.com/breatfroff
    Make textarea to grow to the top and not to the down
  ======================================================================= */
 textarea {
+    height: auto;
     resize: vertical;
 }
 
