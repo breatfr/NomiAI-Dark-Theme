@@ -278,14 +278,6 @@ textarea:focus {
     background: linear-gradient(to right, #3a6186, #89253e);
     border-radius: 20px 8px 20px 20px;
 }
-    
-/* Nomi's answers */
-.css-2hr7pt, /* Nomi's bubbles color mobile */
-.css-afkp3z, /* Nomi's bubbles color */
-.css-1ve1qsh /* Nomi's bubbles color when she answer */ {
-    background: linear-gradient(to right, #cc2b5e, #753a88);
-    border-radius: 8px 20px 20px 20px !important;
-}
 
 /* Replace thumbs background and remove borders */
 .css-16hofwr,
@@ -300,6 +292,14 @@ textarea:focus {
     .css-1fswsvh {
         margin-left: min(25vw, 640px);
         padding-right: 10px;
+    }
+    
+    /* Nomi's answers */
+    .css-2hr7pt, /* Nomi's bubbles color mobile */
+    .css-afkp3z, /* Nomi's bubbles color */
+    .css-1ve1qsh /* Nomi's bubbles color when she answer */ {
+        background: linear-gradient(to right, #cc2b5e, #753a88);
+        border-radius: 8px 20px 20px 20px !important;
     }
 
     /* Add space between form elements */
@@ -352,11 +352,13 @@ textarea:focus {
         border-top: 0px;
     }
     
+    /* Nomi's answer */
+    .css-1ve1qsh,
     .css-afkp3z,
-    .css-ujo45h,
-    .css-2hr7pt,
     .css-1fge6cp {
-        padding-left: 20px !important;
+        background: linear-gradient(to right, #cc2b5e, #753a88);
+        border-radius: 8px 20px 20px 20px !important;
+        margin-left: 20px !important;
     }
     
     /* Add space between form elements */
