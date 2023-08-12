@@ -27,9 +27,11 @@ X (twitter): https://x.com/breatfroff
     display: none;
 }
 
-/* Remove borders between nomis list if more than 1 nomi */
-.css-nzao1s.eawisc75 div {
-    border: 0px !important;
+/* ========================================================================
+   Heart background
+ ======================================================================= */
+.css-1vi0cy8 {
+    background: url(https://i.ibb.co/fYQkYyc/heart-pattern.png) fixed 100% !important;
 }
 
 /* ========================================================================
@@ -54,10 +56,17 @@ X (twitter): https://x.com/breatfroff
 }
 
 /* ========================================================================
-   Heart background
+   Bigger image in picture viewer
  ======================================================================= */
-.css-1vi0cy8 {
-    background: url(https://i.ibb.co/fYQkYyc/heart-pattern.png) fixed 100% !important;
+.css-staxus {
+    height: 100% !important;
+}
+
+/* ========================================================================
+   Make textarea to grow to the top and not to the down
+ ======================================================================= */
+textarea {
+    min-height: 56px !important;
 }
 
 /* ========================================================================
@@ -70,6 +79,27 @@ X (twitter): https://x.com/breatfroff
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: flex-start;
     justify-items: center;
+}
+
+/* ========================================================================
+   Smaller height of menu
+ ======================================================================= */
+.css-udmu36 {
+    max-height: 75px !important;
+}
+
+/* ========================================================================
+   Nomi's names list on left side
+ ======================================================================= */
+/* Smaller names */
+.css-5f4tlo {
+    line-height: 100%;
+    padding: 10px 0px;
+}
+
+/* Remove borders between nomis list if more than 1 nomi */
+.css-nzao1s.eawisc75 div {
+    border: 0px !important;
 }
 
 /* ========================================================================
@@ -115,6 +145,11 @@ ul.css-497xvz,
     border: 0px !important;
 }
 
+/* Nomi.ai color in menu */
+.css-g6cz36 {
+    color: rgb(150, 16, 255) !important;
+}
+
 /* SVG are white */
 svg path {
     stroke: white;
@@ -154,27 +189,17 @@ svg path {
 
 /* Delete account button */
 .css-1yp80wt {
-    -webkit-box-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
     align-items: center;
     background-color: rgb(247, 85, 85);
     border: 2px solid rgb(247, 85, 85);
     border-radius: 100px;
-    box-shadow: none;
-    color: white;
-    cursor: pointer;
     display: flex;
     font-size: 16px;
     font-weight: 600;
-    gap: 10px;
     height: 58px;
     letter-spacing: 0.2px;
     line-height: 22px;
-    padding: 18px 32px;
-    text-decoration: none;
-    text-shadow: none;
-    width: 100%;
+    padding: 18px 32px;    
 }
 
 /* Delete Nomi buttons */
@@ -186,7 +211,7 @@ button.css-8as6rk,
 
 /* Fix SVG on nomi details page when hover */
 .css-bxdqnu:hover svg path {
-    fill: black;
+    fill: white;
 }
 
 /* Fix some buttons and bubbles to make them more visible */
@@ -195,11 +220,6 @@ button.css-8as6rk,
 .css-1qvkgqq,
 .css-bxdqnu:hover /* Fix nomi details page hover */ {
     background-color: gray !important;
-}
-
-/* Bigger image in picture viewer */
-.css-staxus {
-    height: 100% !important;
 }
 
 /* Blue background for the Welcome bubble */
@@ -223,16 +243,6 @@ h5.css-124mhq6 {
 .css-kkk4zb {
     background: #616161 !important;
     stroke: none;
-}
-
-/* Smaller height of menu */
-.css-udmu36 {
-    max-height: 75px !important;
-}
-
-/* Fix textarea to grow to the top and not to the down */
-textarea {
-    min-height: 56px !important;
 }
 
 /* Fix focus changing color of border textarea */
@@ -287,31 +297,13 @@ textarea:focus {
 @media (min-width: 640px) {
     /* Remove free space on screen size 640px and more and rearrange a little the space */
     .css-1fswsvh {
-        margin-left: min(25vw, 480px);
-        padding: 0px !important;
+        margin-left: min(25vw, 640px);
+        margin-right: 10px;
     }
 
-    /* Add a marge and resize the textarea */
-    textarea {
-        margin-left: 15px;
-        width: 98% !important;
-    }
-
-    /* Add a marge to icons on the right of textarea */
-    .css-alqmgy {
-        margin-right: 10px !important;
-    }
-
-    /* Add a marge to Nomi's answers */
-    .css-3fim88, /* pAlign pics in chat  with bubbles again */
-    .css-afkp3z, /* Nomi's bubbles  */
-    .css-1ve1qsh/* Nomi's bubbles when she answer */ {
-        margin-left: 20px;
-    }
-
-    /* Add a marge to our bubbles */
-    .css-13w4jtb {
-        margin-right: 20px !important;
+    /* Add space between form elements */
+    form {
+        gap: 10px;
     }
 }
 }
