@@ -6,7 +6,7 @@
 // @author      BreatFR
 // @updateURL   https://raw.githubusercontent.com/breatfr/NomiAI-Dark-Theme/main/nomi.ai-new-features.js
 // @downloadURL https://raw.githubusercontent.com/breatfr/NomiAI-Dark-Theme/main/nomi.ai-new-features.js
-// @icon         https://assets.nomi.ai/_next/static/media/favicon.49a32755.svg
+// @icon        https://assets.nomi.ai/_next/static/media/favicon.49a32755.svg
 // @description New features for Nomi AI
 // ==/UserScript==
 
