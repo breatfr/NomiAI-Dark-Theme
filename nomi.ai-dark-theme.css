@@ -69,6 +69,10 @@ X (twitter): https://x.com/breatfroff
     resize: vertical !important;
 }
 
+textarea::-webkit-resizer {
+    display: none;
+}
+
 /* Put the textarea's div transparent to avoid UI problems when textarea will grow */
 .css-1ooloxp {
     background-color: transparent !important;
