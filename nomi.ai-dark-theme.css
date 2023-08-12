@@ -370,6 +370,11 @@ textarea:focus {
         width: 768px;
     }
     
+    /* Add a round corcer to the div on profile pic */
+    .css-1htcw6x {
+        border-radius: 20px !important;
+    }
+    
     /* Hide scrollbar but keep the function */
     .css-1htcw6x {
         scrollbar-width: none;
