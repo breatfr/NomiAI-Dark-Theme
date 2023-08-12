@@ -17,6 +17,20 @@ More previews here:
 - https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-photo-viewer.jpg
 - https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-ios.jpg
 
+Some modifications other than the dark theme include in my theme:
+
+- on whole nomi site
+    - thin scrollbars
+
+- now in chat page:
+    - bigger text in chat bubbles
+    - fix some forgotten ui elements in the ui base to follow the nomi's based design
+    - remove the nomi logo on top left and remove some free space to enlarge the chat size to max without modify the size left side of the page
+    - remove borders under the logo already removed and between nomi's names if more than 1 nomi
+    - add heart background in chat
+    - modification of bubbles colors
+    - pics in chat are in row if more than 2 (depending of the screen size, so on mobile like me on last screenshot, 4 pics aren't in row on my iphone 12 mini)
+
 ## How to use in few steps on computer
 1. Install Stylus browser extension
 - Chromium based browsers link: https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne
