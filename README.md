@@ -15,7 +15,7 @@ More previews here:
 - https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-our-profile.jpg
 - https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-photo-album.jpg
 - https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-photo-viewer.jpg
-- https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-photo-ios.jpg
+- https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-ios.jpg
 
 ## How to use in few steps on computer
 1. Install Stylus browser extension
