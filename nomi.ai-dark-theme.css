@@ -311,8 +311,8 @@ textarea:focus {
 @media (min-width: 1632px) {
     /* put profile pic in full size without going in album */
     .css-e2xlbb {
-        max-width: 816px;
-        width: 816px;
+        max-width: 817px;
+        width: 817px;
     }
     
     .css-1htcw6x {
@@ -340,7 +340,7 @@ textarea:focus {
     }
     
     .css-1fswsvh {
-        margin-left: 816px;
+        margin-left: 817px;
         padding-right: 10px;
     }
     
