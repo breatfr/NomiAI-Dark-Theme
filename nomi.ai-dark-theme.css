@@ -287,7 +287,7 @@ textarea:focus {
     border: 0px !important;
 }
 
-@media (max-width: 1632px) {
+@media (max-width: 1500px) {
     /* Remove free space on screen size 640px and more and rearrange a little the space */
     .css-1fswsvh {
         margin-left: min(25vw, 640px);
@@ -308,7 +308,7 @@ textarea:focus {
     }
 }
 
-@media (min-width: 1632px) {
+@media (min-width: 1500px) {
     /* Put profile pic in full size without going in album */
     .css-e2xlbb,
     .css-nzao1s {
@@ -319,7 +319,7 @@ textarea:focus {
         width: 768px;
     }
     
-    /* Hide scroll bar but keep the function */
+    /* Hide scrollbar but keep the function */
     .css-1htcw6x {
         scrollbar-width: none;
         -ms-overflow-style: none;
