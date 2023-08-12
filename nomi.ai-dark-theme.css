@@ -78,11 +78,9 @@ X (twitter): https://x.com/breatfroff
    Pictures in row in chat
  ======================================================================= */
 .css-1cwe3m3 {
-    align-items: center;
     display: grid;
-    grid-gap: 8px;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: flex-start;
+    gap: 8px;
+    grid-template-columns: repeat(4, 1fr);
     justify-items: center;
 }
 
@@ -105,6 +103,11 @@ X (twitter): https://x.com/breatfroff
 /* Remove borders between nomis list if more than 1 nomi */
 .css-nzao1s.eawisc75 div {
     border: 0px !important;
+}
+
+/* Image zoom */
+.css-1mh151z:hover {
+    transform: scale(1.25);
 }
 
 /* ========================================================================
@@ -414,6 +417,7 @@ textarea:focus {
         gap: 10px;
         padding-left: 20px !important;
     }
+    
     .css-alqmgy {
         gap: 10px;
     }
