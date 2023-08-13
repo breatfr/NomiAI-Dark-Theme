@@ -375,6 +375,10 @@ textarea:focus {
         border-radius: 20px !important;
     }
     
+    .css-udmu36 {
+        background: transparent;
+    }
+    
     /* Hide scrollbar but keep the function */
     .css-1htcw6x {
         scrollbar-width: none;
@@ -400,7 +404,7 @@ textarea:focus {
     }
     
     .css-1fswsvh {
-        margin-left: 758px;
+        margin-left: 768px;
         padding: 0px 10px 0px 0px;
     }
     
@@ -418,13 +422,13 @@ textarea:focus {
     .css-1fge6cp {
         background: linear-gradient(to right, #cc2b5e, #753a88);
         border-radius: 8px 20px 20px 20px !important;
-        margin-left: 20px !important;
+        margin-left: 10px !important;
     }
     
     /* Add space between form elements */
     form {
         gap: 10px;
-        padding-left: 20px !important;
+        padding-left: 10px !important;
     }
     
     .css-alqmgy {
