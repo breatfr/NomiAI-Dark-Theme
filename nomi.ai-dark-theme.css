@@ -92,7 +92,9 @@ textarea::-webkit-resizer {
    Smaller height of menu
  ======================================================================= */
 .css-udmu36 {
-    max-height: 75px !important;
+    min-height: 75px;
+    max-height: 75px;
+    padding: 0px;
 }
 
 /* ========================================================================
@@ -373,10 +375,6 @@ textarea:focus {
     /* Add a round corcer to the div on profile pic */
     .css-1htcw6x {
         border-radius: 20px !important;
-    }
-    
-    .css-udmu36 {
-        background: transparent;
     }
     
     /* Hide scrollbar but keep the function */
