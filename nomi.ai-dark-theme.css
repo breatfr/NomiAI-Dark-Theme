@@ -73,11 +73,6 @@ textarea::-webkit-resizer {
     display: none;
 }
 
-/* Put the textarea's div transparent to avoid UI problems when textarea will grow */
-.css-1ooloxp {
-    background-color: transparent !important;
-}
-
 /* ========================================================================
    Pictures in row in chat
  ======================================================================= */
@@ -92,8 +87,8 @@ textarea::-webkit-resizer {
    Smaller height of menu
  ======================================================================= */
 .css-udmu36 {
-    min-height: 75px;
-    max-height: 75px;
+    min-height: 85px;
+    max-height: 85px;
     padding: 0px;
 }
 
@@ -149,7 +144,8 @@ ul.css-497xvz,
 .react-datepicker__header,
 .css-1je5qdk,
 .css-1ejta19,
-.css-1n084m6 {
+.css-1n084m6,
+.css-1ooloxp {
     background: rgb(9, 16, 29) !important;
 }
 
@@ -372,7 +368,16 @@ textarea:focus {
         width: 768px;
     }
     
-    /* Add a round corcer to the div on profile pic */
+    /* Remove space between chat and textarea */
+    .css-1vi0cy8 {
+        gap: 0px !important;
+    }
+    
+    .css-1tyfq5e {
+        height: 0px;
+    }
+    
+    /* Add a round corner to the div on profile pic */
     .css-1htcw6x {
         border-radius: 20px !important;
     }
@@ -426,7 +431,7 @@ textarea:focus {
     /* Add space between form elements */
     form {
         gap: 10px;
-        padding-left: 10px !important;
+        padding: 10px 0px 0px 10px !important;
     }
     
     .css-alqmgy {
