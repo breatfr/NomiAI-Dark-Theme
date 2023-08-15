@@ -78,7 +78,38 @@ textarea::-webkit-resizer {
 }
 
 /* ========================================================================
-   Pictures in row in chat
+   Height of menu
+ ======================================================================= */
+.css-udmu36 {
+    border-top: 0px !important;
+    min-height: 85px;
+    max-height: 85px;
+    padding: 0px !important;
+}
+
+/* ========================================================================
+   Nomi's names list in left side
+ ======================================================================= */
+/* Smaller names */
+.css-5f4tlo {
+    line-height: 100%;
+    padding: 10px 0px;
+}
+
+/* Nomi's name and pictures link, infos link SVG are pink in left side of chat page */
+.css-5f4tlo h4,
+.css-5f4tlo svg path {
+    color: pink !important;
+    stroke: pink;
+}
+
+/* Remove borders between nomis list if more than 1 nomi */
+.css-nzao1s.eawisc75 div {
+    border: 0px !important;
+}
+
+/* ========================================================================
+   Pictures are in row in chat
  ======================================================================= */
 .css-1cwe3m3 {
     display: grid;
@@ -96,42 +127,23 @@ textarea::-webkit-resizer {
 }
 
 /* ========================================================================
-   Remove the "Profile picture" overlay and add zoom on hover to pics in chat and photo album page
+   Remove the "Profile picture" overlay in chat and photo album page
  ======================================================================= */
 .css-yb98gs {
     display: none;
 }
 
+/* ========================================================================
+   Add zoom on hover to pics in chat and photo album page
+ ======================================================================= */
 .e129scxq2:hover {
     transform: scale(1.9) !important;
     z-index: 9999;
 }
 
 /* ========================================================================
-   Height of menu
+   Image zoom on hover in picture viewer page
  ======================================================================= */
-.css-udmu36 {
-    border-top: 0px !important;
-    min-height: 85px;
-    max-height: 85px;
-    padding: 0px !important;
-}
-
-/* ========================================================================
-   Nomi's names list on left side
- ======================================================================= */
-/* Smaller names */
-.css-5f4tlo {
-    line-height: 100%;
-    padding: 10px 0px;
-}
-
-/* Remove borders between nomis list if more than 1 nomi */
-.css-nzao1s.eawisc75 div {
-    border: 0px !important;
-}
-
-/* Image zoom */
 .css-1mh151z:hover {
     transform: scale(1.25);
 }
