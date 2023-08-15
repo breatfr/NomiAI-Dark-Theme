@@ -88,6 +88,26 @@ textarea::-webkit-resizer {
 }
 
 /* ========================================================================
+   Add rounded corners to pics in chat and photo album page
+ ======================================================================= */
+.e129scxq2,
+.css-yb98gs {
+    border-radius: 20px !important;
+}
+
+/* ========================================================================
+   Remove the "Profile picture" overlay and add zoom on hover to pics in chat and photo album page
+ ======================================================================= */
+.css-yb98gs {
+    display: none;
+}
+
+.e129scxq2:hover {
+    transform: scale(1.9) !important;
+    z-index: 9999;
+}
+
+/* ========================================================================
    Height of menu
  ======================================================================= */
 .css-udmu36 {
@@ -377,7 +397,6 @@ textarea:focus {
     .css-1vi0cy8 {
         gap: 0px !important;
         margin-bottom: 10px;
-        padding-bottom: 20px;
     }
     
     .css-1tyfq5e {
