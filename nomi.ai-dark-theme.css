@@ -11,9 +11,7 @@ telegram    https://t.me/+5ZLC2qntf6xmYmI0
 vk          https://vk.com/breatfroff
 X (twitter) https://x.com/breatfroff
 === Credits === */
-}
 
-@-moz-document domain("nomi.ai") {
 /* ========================================================================
    Bigger chat font size
  ======================================================================= */
@@ -137,7 +135,8 @@ textarea::-webkit-resizer {
    Add zoom on hover to pics in chat and photo album page
  ======================================================================= */
 .e129scxq2:hover {
-    transform: scale(1.9) !important;
+    transform: scale(1.9);
+    transition: 0.2s linear;
     z-index: 9999;
 }
 
@@ -145,7 +144,10 @@ textarea::-webkit-resizer {
    Image zoom on hover in picture viewer page
  ======================================================================= */
 .css-1mh151z:hover {
+    display: block;
+    max-height: 93%;
     transform: scale(1.25);
+    transition: 0.2s linear;
 }
 
 /* ========================================================================
