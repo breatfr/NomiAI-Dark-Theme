@@ -375,6 +375,8 @@ textarea:focus {
     /* Remove space between chat and textarea */
     .css-1vi0cy8 {
         gap: 0px !important;
+        margin-bottom: 10px;
+        padding-bottom: 20px;
     }
     
     .css-1tyfq5e {
