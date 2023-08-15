@@ -330,11 +330,26 @@ textarea:focus {
 }
 
 /* Replace thumbs background and remove borders */
-.css-16hofwr,
-.css-d3fk4o,
-.css-vocaqi {
+.css-16hofwr {
+    background-color: transparent;
+    border: 0px !important;
+}
+
+/* Put a background under unclicked thumbs */
+.css-d3fk4o {
     background: rgb(9, 16, 29) !important;
     border: 0px !important;
+}
+
+/* Remove background under clicked thumbs */
+.css-vocaqi {
+    background-color: transparent !important;
+    border: 0px !important;
+}
+
+/* Change background color under unclicked thumbs when hover */
+.css-d3fk4o:hover {
+    background-color: #eeeeee !important;
 }
 
 @media (max-width: 1500px) {
