@@ -87,6 +87,7 @@ textarea::-webkit-resizer {
     padding: 0px !important;
 }
 
+/* Little bigger font-size in menu */
 .css-1pqzh7c {
     font-size: 14px;
 }
@@ -432,6 +433,10 @@ textarea:focus {
     .css-1vi0cy8 {
         gap: 0px !important;
         margin-bottom: 10px;
+    }
+    
+    .e1rpo1t71 {
+        margin-top: 25px !important;
     }
     
     .css-1tyfq5e {
