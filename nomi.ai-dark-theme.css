@@ -442,6 +442,12 @@ textarea:focus {
     .css-1tyfq5e {
         height: 0px;
     }
+
+    /* "Current Profile Picture" button on picture viewer page is less opaque and got a little marge under him */
+    .css-1i76af2 {
+        margin-bottom: 10px;
+        opacity: 0.5;
+    }
     
     /* Add a round corner to the div on profile pic */
     .css-1htcw6x {
