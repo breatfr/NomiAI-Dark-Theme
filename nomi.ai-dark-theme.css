@@ -425,6 +425,11 @@ textarea:focus {
     .css-1fswsvh {
         padding: 0px 10px 0px 10px;
     }
+
+    /* "Current Profile Picture" button on picture viewer page is less opaque */
+    .css-1i76af2 {
+        opacity: 0.5;
+    }
     
     /* Nomi's answers */
     .css-2hr7pt, /* Nomi's bubbles color mobile */
