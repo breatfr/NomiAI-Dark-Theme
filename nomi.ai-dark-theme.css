@@ -317,9 +317,32 @@ textarea:focus {
     fill: gray;
 }
 
-/* Date bubble color */
+/* Date bubble */
 .css-ygnlmt {
-    background: rgb(117, 117, 117) !important;
+    background-color: transparent !important;;
+    display: inline-block;
+    padding: 0 10px; /* Espace entre le texte et les barres */
+    position: relative;
+}
+
+.css-ygnlmt::before,
+.css-ygnlmt::after {
+    background-color: rgb(117, 117, 117); /* Couleur de la barre */
+    content: "";
+    height: 2px; /* Épaisseur de la barre horizontale */
+    position: absolute;
+    top: 25%;
+    width:100%; /* Ajustez la largeur des barres si nécessaire */
+}
+
+.css-ygnlmt::before {
+    left: 0;
+    transform: translate(-100%);
+}
+
+.css-ygnlmt::after {
+    transform: translate(100%);
+    right: 0;
 }
 
 /* Make send button visible again when disabled */
