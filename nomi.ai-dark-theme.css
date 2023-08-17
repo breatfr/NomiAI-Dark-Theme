@@ -132,19 +132,21 @@ textarea::-webkit-resizer {
 }
 
 /* ========================================================================
-   Remove the "Profile picture" overlay in chat and photo album page
+   Replace the "Profile picture" overlay photo album page by a border
  ======================================================================= */
 .css-yb98gs {
-    display: none;
+    background: transparent !important;
+    border: 5px solid rgb(171, 64, 255);
 }
 
-/* ========================================================================
-   Add zoom on hover to pics in chat and photo album page
- ======================================================================= */
-.e129scxq2:hover {
-    transform: scale(1.9);
-    transition: 0.2s linear;
-    z-index: 9999;
+.css-1gp3erv:hover {
+    transform: scale(1.9) !important;
+    transition: 0.2s linear !important;
+    z-index: 9999 !important;
+}
+
+.css-yb98gs p {
+    display: none;
 }
 
 /* ========================================================================
