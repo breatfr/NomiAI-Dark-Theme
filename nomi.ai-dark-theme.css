@@ -539,5 +539,46 @@ textarea:focus {
     .css-alqmgy {
         gap: 10px;
     }
+    
+    /* ========================================================================
+    Home page customization to avoid scroll bar
+    ======================================================================= */
+    /* Avatar, name, hello message, beta alert message go on left side */
+    .css-1g4jhqi {
+        left: 0px;
+        position: fixed;    
+        top: 0px;
+        width: 25vw;
+    }
+
+    .css-1g4jhqi img {
+        border-radius: 5px;
+        left: 10px;
+        position: fixed;
+        top: 10px;
+    }
+
+    .css-1y64612 {
+        display: block;
+        left: 0px;
+        position: fixed;
+        top: 70px;
+        width: 25vw;
+    }
+
+    .css-1gqy2tx {
+        display: block;
+        left: 70px;
+        position: fixed;
+        top: 10px !important;
+    }
+
+    /* Only one Nomi */
+    .css-cnprv6,
+    .css-1pb0fgy {
+        margin: 3% 0px 0px 70px;
+        padding: 0px;
+        width: 60vw !important;
+    }
 }
 }
