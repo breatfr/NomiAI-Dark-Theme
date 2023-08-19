@@ -449,12 +449,30 @@ textarea:focus {
 }
 
 @media (min-width: 1500px) {
+    /* Fix bar position with Nomi's name, photo album and infos links at the top */
+    .css-nzao1s,
+    .css-5f4tlo {
+        background: rgb(9, 16, 29) !important;
+        position: sticky;
+        top: 0px;
+        z-index: 9999;
+    }
+
+    .css-70qvj9 {
+        position: relative;
+    }
+
+    .css-s37f8j {
+        overflow-y: scroll;
+    }
+    
     /* Put profile pic in full size without going in album */
+    .css-1htcw6x,
     .css-e2xlbb,
     .css-nzao1s {
         border-right: 0px;
-        max-width: 770px;
         margin: 0px !important;
+        max-width: 770px;
         padding: 0px 0px 0px 2px !important;
         width: 770px;
     }
@@ -494,11 +512,14 @@ textarea:focus {
     }
     
     /* Hide scrollbar but keep the function */
+    .css-s37f8j,
     .css-1htcw6x {
         scrollbar-width: none;
         -ms-overflow-style: none;
     }
-
+    
+    .css-z7ud66::-webkit-scrollbar,
+    .css-s37f8j::-webkit-scrollbar,
     .css-1htcw6x::-webkit-scrollbar {
         display: none;
     }
