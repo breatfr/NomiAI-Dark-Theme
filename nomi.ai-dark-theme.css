@@ -384,6 +384,11 @@ textarea:focus {
     background-color: #eeeeee !important;
 }
 
+/* Remove the border on top of the left side */
+.css-e2xlbb.e1fc4ty00 > div:nth-of-type(1) {
+    display: none;
+}
+
 @media (max-width: 1500px) {
     /* Put profile pic in full size without going in album */
     .css-e2xlbb,
@@ -392,10 +397,6 @@ textarea:focus {
         max-width: 768px;
         margin: 0px;
         padding: 0px 0px 0px 2px !important;
-    }
-    
-    .css-e2xlbb.e1fc4ty00 > div:nth-of-type(1) {
-        display: none;
     }
     
     /* Remove free space on screen size 640px and more and rearrange a little the space */
@@ -479,10 +480,6 @@ textarea:focus {
         max-width: 770px;
         padding: 0px 0px 0px 2px !important;
         width: 770px;
-    }
-    
-    .css-e2xlbb.e1fc4ty00 > div:nth-of-type(1) {
-        display: none;
     }
     
     .css-1fswsvh {
