@@ -453,14 +453,19 @@ textarea:focus {
     .css-e2xlbb,
     .css-nzao1s {
         border-right: 0px;
-        max-width: 768px;
+        max-width: 770px;
         margin: 0px !important;
-        padding: 0px !important;
-        width: 768px;
+        padding: 0px 0px 0px 2px !important;
+        width: 770px;
     }
     
     .css-e2xlbb.e1fc4ty00 > div:nth-of-type(1) {
         display: none;
+    }
+    
+    .css-1fswsvh {
+        margin-left: 770px;
+        padding: 0px 10px 0px 0px;
     }
     
     /* Remove space between chat and textarea */
@@ -495,26 +500,7 @@ textarea:focus {
     }
 
     .css-1htcw6x::-webkit-scrollbar {
-        width: 0px !important;
-    }
-
-    .css-1htcw6x::-webkit-scrollbar {
-        width: 0px;
-        background-color: transparent;
-    }
-
-    .css-1htcw6x::-webkit-scrollbar-thumb {
-        background-color: transparent;
-        border-radius: 4px;
-    }
-
-    .css-1htcw6x::-webkit-scrollbar-thumb:hover {
-        background-color: transparent;
-    }
-    
-    .css-1fswsvh {
-        margin-left: 768px;
-        padding: 0px 10px 0px 0px;
+        display: none;
     }
     
     /* Nomi's answer */
@@ -573,7 +559,7 @@ textarea:focus {
         top: 10px !important;
     }
 
-    /* Only one Nomi */
+    /* Nomi list */
     .css-cnprv6,
     .css-1pb0fgy {
         margin: 3% 0px 0px 70px;
