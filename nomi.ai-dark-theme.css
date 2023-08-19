@@ -195,7 +195,7 @@ ul.css-497xvz,
 .css-1n084m6,
 .css-u5iji2,
 .css-1ooloxp {
-    background: rgb(9, 16, 29) !important;
+    background-color: rgb(9, 16, 29) !important;
 }
 
 /* Remove border on pop up for selfie request */
@@ -412,21 +412,7 @@ textarea:focus {
     }
 
     .css-1htcw6x::-webkit-scrollbar {
-        width: 0px !important;
-    }
-
-    .css-1htcw6x::-webkit-scrollbar {
-        width: 0px;
-        background-color: transparent;
-    }
-
-    .css-1htcw6x::-webkit-scrollbar-thumb {
-        background-color: transparent;
-        border-radius: 4px;
-    }
-
-    .css-1htcw6x::-webkit-scrollbar-thumb:hover {
-        background-color: transparent;
+        display: none;
     }
     
     .css-1fswsvh {
@@ -455,16 +441,11 @@ textarea:focus {
 
 @media (min-width: 1500px) {
     /* Fix bar position with Nomi's name, photo album and infos links at the top */
-    .css-nzao1s,
     .css-5f4tlo {
         background: rgb(9, 16, 29) !important;
         position: sticky;
-        top: 0px;
+        top: 0px !important;
         z-index: 9999;
-    }
-
-    .css-70qvj9 {
-        position: relative;
     }
 
     .css-s37f8j {
@@ -519,7 +500,6 @@ textarea:focus {
         -ms-overflow-style: none;
     }
     
-    .css-z7ud66::-webkit-scrollbar,
     .css-s37f8j::-webkit-scrollbar,
     .css-1htcw6x::-webkit-scrollbar {
         display: none;
@@ -570,7 +550,7 @@ textarea:focus {
         display: block;
         left: 0px;
         position: fixed;
-        top: 70px;
+        top: 100px;
         width: 25vw;
     }
 
