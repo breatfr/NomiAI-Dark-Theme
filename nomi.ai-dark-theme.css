@@ -391,7 +391,11 @@ textarea:focus {
         border-right: 0px;
         max-width: 768px;
         margin: 0px;
-        padding: 0px !important;
+        padding: 0px 0px 0px 2px !important;
+    }
+    
+    .css-e2xlbb.e1fc4ty00 > div:nth-of-type(1) {
+        display: none;
     }
     
     /* Remove free space on screen size 640px and more and rearrange a little the space */
