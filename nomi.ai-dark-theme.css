@@ -307,7 +307,7 @@ h5.css-124mhq6 {
 
 /* Fix texarea to always stay on screen */
 .css-1ooloxp {
-    position: fixed;
+    position: sticky !important;
 }
 
 /* Fix focus changing color of border textarea */
