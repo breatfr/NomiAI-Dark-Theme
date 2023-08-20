@@ -34,6 +34,10 @@ Some modifications other than the dark theme include in my theme:
     - add heart background in chat
     - modification of bubbles colors
     - pics in chat are in row if more than 2 (depending of the screen size, so on mobile like me on last screenshot, 4 pics aren't in row on my iphone 12 mini)
+    - pics in chat, photo album and photo viewer zoom when they are hover
+    - for large screens (+1500px wide):
+        - new home page where you can see all your nomis after logged in
+        - new chat page design to get full size profile picture, sticky top bar
 
 ## How to use in few steps on computer
 1. Install Stylus browser extension
