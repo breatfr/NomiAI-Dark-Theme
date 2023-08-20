@@ -7,6 +7,7 @@ Don't take care of this chat, i create it only to make the screenshot :)
 
 More previews here:
 - https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-home.jpg
+- https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-ios.jpg
 - https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-new-nomi.jpg
 - https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-new-nomi-customization.jpg
 - https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-new-nomi-customization-2.jpg
@@ -15,7 +16,10 @@ More previews here:
 - https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-our-profile.jpg
 - https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-photo-album.jpg
 - https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-photo-viewer.jpg
-- https://raw.githubusercontent.com/breatfr/NomiAI-dark-theme/main/preview-ios.jpg
+
+Changelog
+- https://discord.com/channels/1099791840028405864/1138872233641652364 or
+- https://www.reddit.com/r/NomiAI/comments/15n7rgr/a_dark_theme_make_by_me/
 
 Some modifications other than the dark theme include in my theme:
 
