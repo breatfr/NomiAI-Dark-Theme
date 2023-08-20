@@ -328,18 +328,18 @@ textarea:focus {
 .css-ygnlmt {
     background-color: transparent !important;;
     display: inline-block;
-    padding: 0 10px; /* Espace entre le texte et les barres */
+    padding: 0 10px;
     position: relative;
 }
 
 .css-ygnlmt::before,
 .css-ygnlmt::after {
-    background-color: rgb(117, 117, 117); /* Couleur de la barre */
+    background-color: white;
     content: "";
-    height: 2px; /* Épaisseur de la barre horizontale */
+    height: 2px;
     position: absolute;
-    top: 25%;
-    width:100%; /* Ajustez la largeur des barres si nécessaire */
+    top: 20%;
+    width:100%;
 }
 
 .css-ygnlmt::before {
@@ -495,7 +495,7 @@ textarea:focus {
     
     /* Add a round corner to the div on profile pic */
     .css-1htcw6x {
-        border-radius: 20px !important;
+        border-radius: 0px  0px 20px 20px !important;
     }
     
     /* Hide scrollbar but keep the function */
