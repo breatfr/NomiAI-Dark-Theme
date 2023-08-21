@@ -194,6 +194,7 @@ ul.css-497xvz,
 .css-1ejta19,
 .css-1n084m6,
 .css-u5iji2,
+.css-1oeraiw,
 .css-1ooloxp {
     background-color: rgb(9, 16, 29) !important;
 }
@@ -472,7 +473,7 @@ textarea:focus {
         margin-left: 770px;
         padding: 0px 10px 0px 0px;
     }
-    
+        
     /* Remove space between chat and textarea */
     .css-1vi0cy8 {
         gap: 0px !important;
