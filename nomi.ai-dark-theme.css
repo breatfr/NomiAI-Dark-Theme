@@ -171,7 +171,6 @@ textarea::-webkit-resizer {
 body,
 input,
 select,
-textarea,
 --toastify-spinner-color-empty-area,
 ul.css-497xvz,
 .css-18rjz9j,
@@ -309,6 +308,16 @@ h5.css-124mhq6 {
 /* Fix texarea to always stay on screen */
 .css-1ooloxp {
     position: sticky !important;
+}
+
+/* Textarea customization */
+
+textarea,
+textarea:focus {
+    animation: gradient 5s ease infinite;
+    background-image: linear-gradient(90deg, rgba(58,180,133,0.14066876750700286) 0%, rgba(89,98,140,0.16307773109243695) 21%, rgba(253,29,29,0.16307773109243695) 43%, rgba(218,41,141,0.16867997198879547) 65%, rgba(183,53,252,0.24711134453781514) 80%, rgba(252,176,69,0.3031337535014006) 100%);
+    transition: all .3s;
+    -webkit-transition: all .3s;
 }
 
 /* Fix focus changing color of border textarea */
