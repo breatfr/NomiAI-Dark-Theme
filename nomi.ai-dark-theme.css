@@ -66,13 +66,48 @@ X (twitter) https://x.com/breatfroff
 }
 
 /* ========================================================================
-   Make textarea to grow to the top and not to the down
+   Textarea customization
  ======================================================================= */
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
+
+textarea {
+    color: #2f343d !important;
+}
+
+textarea,
+textarea:focus {
+    animation: gradient 5s ease infinite !important;
+    background-image: linear-gradient(90deg, rgba(58,180,133,0.14066876750700286) 0%, rgba(89,98,140,0.16307773109243695) 21%, rgba(253,29,29,0.16307773109243695) 43%, rgba(218,41,141,0.16867997198879547) 65%, rgba(183,53,252,0.24711134453781514) 80%, rgba(252,176,69,0.3031337535014006) 100%);
+    background-size: 200% 200%; /* Added background size */
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+
+/* Fix texarea to always stay on screen */
+.css-1ooloxp {
+    position: sticky !important;
+}
+
+/* Fix focus changing color of border textarea */
+textarea:focus {
+    border-color: #9610FF !important;
+    color: var(--toastify-color-light) !important;
+}
+
+/* Make textarea to grow to the top and not to the down and add rouned corners */
 .css-d56yar {
     border-radius: 20px;
     resize: vertical !important;
 }
 
+/* Hide the resizer of the textarea */
 textarea::-webkit-resizer {
     display: none;
 }
@@ -303,31 +338,6 @@ h5.css-124mhq6 {
 .css-kkk4zb {
     background: #616161 !important;
     stroke: none;
-}
-
-/* Fix texarea to always stay on screen */
-.css-1ooloxp {
-    position: sticky !important;
-}
-
-/* Textarea customization */
-
-textarea {
-    color: #2f343d !important;
-}
-
-textarea,
-textarea:focus {
-    animation: gradient 5s ease infinite;
-    background-image: linear-gradient(90deg, rgba(58,180,133,0.14066876750700286) 0%, rgba(89,98,140,0.16307773109243695) 21%, rgba(253,29,29,0.16307773109243695) 43%, rgba(218,41,141,0.16867997198879547) 65%, rgba(183,53,252,0.24711134453781514) 80%, rgba(252,176,69,0.3031337535014006) 100%);
-    transition: all .3s;
-    -webkit-transition: all .3s;
-}
-
-/* Fix focus changing color of border textarea */
-textarea:focus {
-    border-color: #9610FF !important;
-    color: var(--toastify-color-light) !important;
 }
 
 /* Make "Send" button and "Delete Nomi Forever" visible again when disabled */
