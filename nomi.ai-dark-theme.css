@@ -312,6 +312,10 @@ h5.css-124mhq6 {
 
 /* Textarea customization */
 
+textarea {
+    color: #2f343d !important;
+}
+
 textarea,
 textarea:focus {
     animation: gradient 5s ease infinite;
@@ -323,6 +327,7 @@ textarea:focus {
 /* Fix focus changing color of border textarea */
 textarea:focus {
     border-color: #9610FF !important;
+    color: var(--toastify-color-light) !important;
 }
 
 /* Make "Send" button and "Delete Nomi Forever" visible again when disabled */
