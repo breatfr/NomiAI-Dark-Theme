@@ -1,13 +1,13 @@
 // ==UserScript==
 // @name        Nomi AI - New features
-// @namespace
+// @description New features for Nomi AI
+// @namespace   https://beta.nomi.ai/*
 // @match       https://beta.nomi.ai/*
-// @version     1.0
+// @version     1.00
 // @author      BreatFR
 // @updateURL   https://raw.githubusercontent.com/breatfr/NomiAI-Dark-Theme/main/nomi.ai-new-features.js
-// @downloadURL https://raw.githubusercontent.com/breatfr/NomiAI-Dark-Theme/main/nomi.ai-new-features.js
 // @icon        https://assets.nomi.ai/_next/static/media/favicon.49a32755.svg
-// @description New features for Nomi AI
+// @license     GPL-3.0-or-later; http://www.gnu.org/licenses/gpl-3.0.txt
 // ==/UserScript==
 
 (function() {
