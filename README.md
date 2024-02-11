@@ -1,4 +1,4 @@
-# NomiAI dark theme [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/breatfr) <a href="https://www.paypal.me/breat"><img src="https://github.com/andreostrovsky/donate-with-paypal/raw/master/blue.svg" alt="PayPal" height="30"></a>
+# <img src="https://play-lh.googleusercontent.com/3plBpju7QdVUJNCZlJiVC13aHz9C6seDPAuG3VRZi76G6dB33tMGVI6MLfHC4lqkrHQ=s30-rw" alt="Nomi"> NomiAI dark theme [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/breatfr) <a href="https://www.paypal.me/breat"><img src="https://github.com/andreostrovsky/donate-with-paypal/raw/master/blue.svg" alt="PayPal" height="30"></a>
 Stylus dark theme for whole [NomiAI](https://beta.nomi.ai) website.
 
 ## Preview
