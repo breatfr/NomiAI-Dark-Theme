@@ -1,1 +1,1 @@
-# :warning: Project moved on GitLab: https://gitlab.com/breatfr/Nomi :warning:
+# :warning: Project moved on GitLab: https://gitlab.com/breatfr/nomi :warning:
